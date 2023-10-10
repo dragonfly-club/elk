@@ -145,7 +145,7 @@ const characterCount = computed(() => {
   const countableMentionRegex = /(^|[^/\w])@((\w+)@[a-z0-9.-]+[a-z0-9])/gi
 
   // maximum of 23 chars per link
-  // https://github.com/elk-zone/elk/issues/1651
+  // https://github.com/dragonfly-club/elk/issues/1651
   const maxLength = 23
 
   for (const [fullMatch] of text.matchAll(linkRegex))
